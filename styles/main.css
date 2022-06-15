@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url('../assets/bg.svg');
+  background-size: cover !important;
+  font-family: 'Josefin Sans', sans-serif !important;
+}
+.navbar-main {
+  position: sticky !important;
+  padding: 35px 10vw !important;
+}
