@@ -850,7 +850,7 @@ input[type='checkbox'] {
 /******************/
 .footer {
   padding-top: 6.25rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
   background-color: #24262a;
   text-align: center;
 }
@@ -882,6 +882,12 @@ input[type='checkbox'] {
 
 .footer .fa-stack:hover .fa-stack-2x {
   color: #ffffff;
+}
+.footer .tags {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
 /*********************/
