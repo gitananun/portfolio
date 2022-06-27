@@ -74,4 +74,6 @@
     $('.live-time').html(formattedString[1]);
   }
   setInterval(refreshTime, 1000);
+
+  $('.experience-in-years').html(new Date().getFullYear() - 2017);
 })(jQuery);
