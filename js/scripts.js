@@ -67,4 +67,11 @@
   $('.button, a, button').mouseup(function () {
     $(this).blur();
   });
+
+  function refreshTime() {
+    const dateString = new Date().toLocaleString();
+    const formattedString = dateString.replace(', ', ' - ').split('- ');
+    $('.live-time').html(formattedString[1]);
+  }
+  setInterval(refreshTime, 1000);
 })(jQuery);
