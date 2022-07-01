@@ -38,6 +38,7 @@
 
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet" />
     <link href="css/styles.css" rel="stylesheet">
 
     <!-- Favicon and Native -->
@@ -46,25 +47,6 @@
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
     <link rel="manifest" href="images/favicon/site.webmanifest">
-
-    <!-- Yandex.Metrika counter -->
-    <script type="text/javascript">
-        (function (m, e, t, r, i, k, a) {
-            m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
-            m[i].l = 1 * new Date(); k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
-        })
-            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-        ym(89312732, "init", {
-            clickmap: true,
-            trackLinks: true,
-            accurateTrackBounce: true
-        });
-    </script>
-    <noscript>
-        <div><img src="https://mc.yandex.ru/watch/89312732" style="position:absolute; left:-9999px;" alt="" /></div>
-    </noscript>
-    <!-- /Yandex.Metrika counter -->
 </head>
 
 <body data-spy="scroll" data-target=".fixed-top">
@@ -74,7 +56,8 @@
         <div class="container">
 
             <!-- Image Logo -->
-            <a class="navbar-brand logo-image" href="/"><img src="images/logo.svg" alt="TM"></a>
+            <a class="navbar-brand logo-image animate__animated animate__fadeIn" href="/"><img src="images/logo.svg"
+                    alt="TM"></a>
 
             <!-- Text Logo - Use this if you don't have a graphic logo -->
             <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Mark</a> -->
@@ -83,7 +66,8 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+            <div class="navbar-collapse offcanvas-collapse animate__animated animate__fadeIn"
+                id="navbarsExampleDefault">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a class="nav-link page-scroll" href="#header">Home</a>
@@ -92,7 +76,7 @@
                         <a class="nav-link page-scroll" href="#about">About</a>
                     </li>
                 </ul>
-                <span class="nav-item social-icons">
+                <span class="nav-item social-icons animate__animated animate__fadeInRight">
                     <span class="fa-stack">
                         <a class="page-scroll" href="#footer">
                             <i class="fas fa-circle fa-stack-2x"></i>
@@ -112,10 +96,13 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="text-container">
-                        <h1 class="h1-large border-0" contenteditable>
-                            You're <br /> Welcome! </h1>
-                        <a class="btn-solid-lg page-scroll" href="#about">About Me</a>
-                        <a class="btn-outline-lg page-scroll" href="#footer"><i class="fas fa-user"></i>Contact
+                        <h1 class="h1-large border-0 animate__animated animate__fadeIn" contenteditable>
+                            You're <br /> Welcome!
+                        </h1>
+                        <a class="btn-solid-lg page-scroll animate__animated animate__fadeInLeft" href="#about">About
+                            Me</a>
+                        <a class="btn-outline-lg page-scroll animate__animated animate__fadeInRight" href="#footer"><i
+                                class="fas fa-user"></i>Contact
                             Me</a>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
@@ -133,7 +120,8 @@
                     <div class="text-container first">
                         <h2 class="snippet d-flex justify-content-between">
                             <div>
-                                <i class="fa fa-terminal fa-xs blink"></i> <span contenteditable>I'm Tigran</span>
+                                <i class="fa fa-terminal fa-xs blink"></i>
+                                <span class="animate__animated animate__fadeIn" contenteditable>I'm Tigran</span>
                             </div>
                             <small class="text-secondary live-time"></small>
                         </h2>
@@ -142,13 +130,13 @@
                             remote work for agencies, created startups from the ground up, and collaborated with
                             people
                             from all over the world.
-                            <hr />
+                            <hr class="animate__animated animate__fadeInLeft" />
                             You can see the companies I worked for.
                         </p>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-7">
-                    <div class="logos-container text-sm-right text-center">
+                    <div class="logos-container text-sm-right text-center animate__animated animate__fadeInUp">
                         <a target="_blank" href="https://platform161.com">
                             <img src="images/p161.webp" alt="platform161">
                         </a>
@@ -421,6 +409,25 @@
     <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
     <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
     <script src="js/scripts.js"></script> <!-- Custom scripts -->
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function (m, e, t, r, i, k, a) {
+            m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+            m[i].l = 1 * new Date(); k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(89312732, "init", {
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true
+        });
+    </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/89312732" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
 </body>
 
 </html>

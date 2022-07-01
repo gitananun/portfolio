@@ -1299,3 +1299,15 @@ a:hover.back-to-top {
     color: grey;
   }
 }
+::-webkit-scrollbar {
+  width: 1px;
+}
+::-webkit-scrollbar-track {
+  background: darkgray;
+}
+::-webkit-scrollbar-thumb {
+  background: #1d1f20;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: gray;
+}
