@@ -630,6 +630,10 @@ input[type='checkbox'] {
 }
 
 .split .icons-container .smaller {
+  width: 100px;
+}
+
+.split .icons-container .smaller {
   width: 80px;
 }
 
@@ -1213,9 +1217,6 @@ a:hover.back-to-top {
   /* end of about */
 
   /* Details */
-  .split {
-    height: 700px;
-  }
 
   .split .text-container {
     width: 90%;
