@@ -1302,3 +1302,9 @@ a:hover.back-to-top {
 ::-webkit-scrollbar-thumb:hover {
   background: gray;
 }
+.text-sm {
+  font-size: 16px;
+}
+.hover-title:hover {
+  color: red;
+}
