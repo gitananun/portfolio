@@ -1309,7 +1309,11 @@ a:hover.back-to-top {
   color: red;
 }
 .resumes {
-  gap: 10px;
+  gap: 20px;
+
+  @media (max-width: 768px) {
+    gap: 10px;
+  }
 }
 .resumes a {
   text-align: center;
