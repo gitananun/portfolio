@@ -1308,3 +1308,17 @@ a:hover.back-to-top {
 .hover-title:hover {
   color: red;
 }
+.resumes {
+  gap: 10px;
+}
+.resumes a {
+  text-align: center;
+
+  @media (max-width: 768px) {
+    min-width: 90%;
+  }
+}
+.note {
+  color: black;
+  font-size: 14px;
+}
